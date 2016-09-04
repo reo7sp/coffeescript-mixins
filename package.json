@@ -1,12 +1,12 @@
 {
-  "name": "coffeescript-mixins",
-  "version": "0.0.4",
+  "name": "coffeescript-mixins-lodash",
+  "version": "0.0.1",
   "author": "Caleb Mingle <me@caleb.io>",
   "description": "easy to use mixins with CoffeeScript",
   "main": "lib/mixins.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dentafrice/coffeescript-mixins.git"
+    "url": "https://github.com/reo7sp/coffeescript-mixins-lodash.git"
   },
   "scripts": {
     "test": "make test"
@@ -16,7 +16,7 @@
     "mixins"
   ],
   "dependencies": {
-    "underscore": "~1.5.1"
+    "lodash": "^4.15.0"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",

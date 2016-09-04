@@ -11,7 +11,7 @@ exports =
         throw 'Supplied mixin was not found'
 
       if not _
-        throw 'Underscore was not found'
+        throw 'Lodash was not found'
 
       mixin = mixin.prototype if _.isFunction(mixin)
 
@@ -34,7 +34,7 @@ exports =
 
 if module?.exports?
   if require?
-    _ = require 'underscore'
+    _ = require 'lodash'
 
   module.exports = exports
 else
